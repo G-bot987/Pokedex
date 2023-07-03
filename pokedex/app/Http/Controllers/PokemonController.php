@@ -10,29 +10,27 @@ class PokemonController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
+        $type = $request->input('type');
 
-        $pokemon = Pokemon::paginate(35);
-        return view('pokemonViews\pokedex', [
+        $pokemon = Pokemon::query();
+
+        if ($type) {
+            $pokemon->where(function ($query) use ($type) {
+                $query->where('type1', $type)
+                    ->orWhere('type2', $type);
+            });
+        }
+
+        $pokemon = $pokemon->paginate(35);
+
+        return view('pokemonViews.pokedex', [
             'pokemon' => $pokemon
         ]);
     }
 
-    // public function type(Request $request)
-    // {
-    //     $type = $request->input('type');
 
-    //     $pokemon = Pokemon::query();
-
-    //     if ($type) {
-    //         $pokemon->where('type', $type);
-    //     }
-
-    //     $pokemon = $pokemon->paginate(10);
-
-    //     return view('pokedex.index', compact('pokemon'));
-    // }
 
 
     public function show($id)

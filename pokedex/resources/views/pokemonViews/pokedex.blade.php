@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row justify-content-center mb-3">
             <div class="col-md-4">
-                <form method="GET">
+                <form action="{{ route('pokedex') }}" method="GET">
                     <div class="input-group">
                         <select class="form-select" name="type" aria-label="Select Type">
                             <option value="">All Types</option>
