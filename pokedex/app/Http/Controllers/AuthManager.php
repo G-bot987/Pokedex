@@ -15,7 +15,7 @@ class AuthManager extends Controller
         if (Auth::check()) {
             return redirect(route('pokedex'));
         }
-        return view('login');
+        return view('logInPgs\login');
     }
 
     function loginPost(Request $request)
@@ -36,7 +36,7 @@ class AuthManager extends Controller
         if (Auth::check()) {
             return redirect(route('home'));
         }
-        return view('registration');
+        return view('logInPgs\registration');
     }
 
     function registrationPost(Request $request)
