@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthManager;
+use App\Http\Controllers\PokemonController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(['middleware' => 'auth'], function () {
-    Route::get('/pokedex', function () {
-        return view('pokedex');
-    })->name('pokedex');
+Route::middleware(['auth'])->group(function () {
+    Route::resource('/pokedex', PokemonController::class)->names([
+        'index' => 'pokedex',
+    ]);
 });
 
 Route::get('/registration', [AuthManager::class, 'registration'])->name('registration');
