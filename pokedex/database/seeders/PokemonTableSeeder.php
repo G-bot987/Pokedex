@@ -961,18 +961,6 @@ class PokemonTableSeeder extends Seeder
                 'png' => 'https://play.pokemonshowdown.com/sprites/bw/tentacool.png',
                 'description' => 'Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.',
             ], [
-                'pokemon' => 'Tentacool',
-                'type1' => 'Water',
-                'type2' => 'Poison',
-                'hp' => 40,
-                'attack' => 40,
-                'defense' => 35,
-                'speed' => 70,
-                'special' => 100,
-                'gif' => 'https://play.pokemonshowdown.com/sprites/bwani/tentacool.gif',
-                'png' => 'https://play.pokemonshowdown.com/sprites/bw/tentacool.png',
-                'description' => 'Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.',
-            ], [
                 'pokemon' => 'Tentacruel',
                 'type1' => 'Water',
                 'type2' => 'Poison',
@@ -1364,6 +1352,23 @@ class PokemonTableSeeder extends Seeder
                 "png" => "https://play.pokemonshowdown.com/sprites/bw/exeggcute.png",
                 "description" => "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
             ],
+            [
+                "pokemon" => "Exeggutor",
+                "type1" => "Grass",
+                "type2" => "Psychic",
+                "hp" => 95,
+                "attack" => 95,
+                "defense" => 85,
+                "speed" => 55,
+                "special" => 125,
+                "gif" => "https://play.pokemonshowdown.com/sprites/bwani/exeggutor.gif",
+                "png" => "https://play.pokemonshowdown.com/sprites/bw/exeggutor.png",
+                "description" => "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE."
+            ],
+
+
+
+
             [
                 "pokemon" => "Cubone",
                 "type1" => "Ground",
