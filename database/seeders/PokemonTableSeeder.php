@@ -15,6 +15,7 @@ class PokemonTableSeeder extends Seeder
     {
         DB::table('pokemon')->insert([
             [
+                'no' => 1,
                 'pokemon' => 'Bulbasaur',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -28,6 +29,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.'
             ],
             [
+                'no' => 2,
                 'pokemon' => 'Ivysaur',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -41,6 +43,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.'
             ],
             [
+                'no' => 3,
                 'pokemon' => 'Venusaur',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -54,6 +57,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.'
             ],
             [
+                'no' => 4,
                 'pokemon' => 'Charmander',
                 'type1' => 'Fire',
                 'type2' => null,
@@ -69,6 +73,7 @@ class PokemonTableSeeder extends Seeder
 
 
             [
+                'no' => 5,
                 'pokemon' => 'Charmeleon',
                 'type1' => 'Fire',
                 'type2' => null,
@@ -82,6 +87,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'When it swings its burning tail, it elevates the temperature to unbearably high levels.'
             ],
             [
+                'no' => 6,
                 'pokemon' => 'Charizard',
                 'type1' => 'Fire',
                 'type2' => 'Flying',
@@ -95,6 +101,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.'
             ],
             [
+                'no' => 7,
                 'pokemon' => 'Squirtle',
                 'type1' => 'Water',
                 'type2' => null,
@@ -108,6 +115,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.'
             ],
             [
+                'no' => 8,
                 'pokemon' => 'Wartortle',
                 'type1' => 'Water',
                 'type2' => null,
@@ -121,6 +129,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.'
             ],
             [
+                'no' => 9,
                 'pokemon' => 'Blastoise',
                 'type1' => 'Water',
                 'type2' => null,
@@ -134,6 +143,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'A brutal Pokemon with pressurized water jets on its shell. They are used for high-speed tackles.'
             ],
             [
+                'no' => 10,
                 'pokemon' => 'Caterpie',
                 'type1' => 'Bug',
                 'type2' => null,
@@ -147,6 +157,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.'
             ],
             [
+                'no' => 11,
                 'pokemon' => 'Metapod',
                 'type1' => 'Bug',
                 'type2' => null,
@@ -160,6 +171,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'This Pokemon is vulnerable to attack while its shell is soft, exposing its weak and tender body.'
             ],
             [
+                'no' => 12,
                 'pokemon' => 'Butterfree',
                 'type1' => 'Bug',
                 'type2' => 'Flying',
@@ -173,6 +185,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'In battle, it flaps its wings at high speed to release highly toxic dust into the air.'
             ],
             [
+                'no' => 13,
                 'pokemon' => 'Weedle',
                 'type1' => 'Bug',
                 'type2' => 'Poison',
@@ -186,6 +199,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Often found in forests, eating leaves. It has a sharp venomous stinger on its head.'
             ],
             [
+                'no' => 14,
                 'pokemon' => 'Kakuna',
                 'type1' => 'Bug',
                 'type2' => 'Poison',
@@ -199,6 +213,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Almost incapable of moving, this Pokemon can only harden its shell to protect itself from predators.'
             ],
             [
+                'no' => 15,
                 'pokemon' => 'Beedrill',
                 'type1' => 'Bug',
                 'type2' => 'Poison',
@@ -212,6 +227,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.'
             ],
             [
+                'no' => 16,
                 'pokemon' => 'Pidgey',
                 'type1' => 'Normal',
                 'type2' => 'Flying',
@@ -225,6 +241,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.'
             ],
             [
+                'no' => 17,
                 'pokemon' => 'Pidgeotto',
                 'type1' => 'Normal',
                 'type2' => 'Flying',
@@ -238,6 +255,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Very protective of its sprawling territorial area, this Pokemon will fiercely peck at any intruder.'
             ],
             [
+                'no' => 18,
                 'pokemon' => 'Pidgeot',
                 'type1' => 'Normal',
                 'type2' => 'Flying',
@@ -251,6 +269,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.'
             ],
             [
+                'no' => 19,
                 'pokemon' => 'Rattata',
                 'type1' => 'Normal',
                 'type2' => null,
@@ -264,6 +283,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Bites anything when it attacks. Small and very quick, it is a common sight in many places.'
             ],
             [
+                'no' => 20,
                 'pokemon' => 'Raticate',
                 'type1' => 'Normal',
                 'type2' => null,
@@ -277,6 +297,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.'
             ],
             [
+                'no' => 21,
                 'pokemon' => 'Spearow',
                 'type1' => 'Normal',
                 'type2' => 'Flying',
@@ -290,6 +311,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.'
             ],
             [
+                'no' => 22,
                 'pokemon' => 'Fearow',
                 'type1' => 'Normal',
                 'type2' => 'Flying',
@@ -303,6 +325,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'With its huge and magnificent wings, it can keep aloft without ever having to land for rest.'
             ],
             [
+                'no' => 23,
                 'pokemon' => 'Ekans',
                 'type1' => 'Poison',
                 'type2' => null,
@@ -316,6 +339,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.'
             ],
             [
+                'no' => 24,
                 'pokemon' => 'Arbok',
                 'type1' => 'Poison',
                 'type2' => null,
@@ -329,6 +353,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'It is rumored that the ferocious warning markings on its belly differ from area to area.'
             ],
             [
+                'no' => 25,
                 'pokemon' => 'Pikachu',
                 'type1' => 'Electric',
                 'type2' => null,
@@ -342,6 +367,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'When several of these Pokémon gather, their electricity could build and cause lightning storms.'
             ],
             [
+                'no' => 26,
                 'pokemon' => 'Raichu',
                 'type1' => 'Electric',
                 'type2' => null,
@@ -355,6 +381,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Its long tail serves as a ground to protect itself from its own high-voltage power.'
             ],
             [
+                'no' => 27,
                 'pokemon' => 'Sandshrew',
                 'type1' => 'Ground',
                 'type2' => null,
@@ -368,6 +395,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Burrows deep underground in arid locations far from water. It only emerges to hunt for food.'
             ],
             [
+                'no' => 28,
                 'pokemon' => 'Sandslash',
                 'type1' => 'Ground',
                 'type2' => null,
@@ -381,6 +409,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.'
             ],
             [
+                'no' => 29,
                 'pokemon' => 'Nidoran♀',
                 'type1' => 'Poison',
                 'type2' => null,
@@ -394,6 +423,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.'
             ],
             [
+                'no' => 30,
                 'pokemon' => 'Nidorina',
                 'type1' => 'Poison',
                 'type2' => null,
@@ -407,6 +437,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'The females horn develops slowly. Prefers physical attacks such as clawing and biting.'
             ],
             [
+                'no' => 31,
                 'pokemon' => 'Nidoqueen',
                 'type1' => 'Poison',
                 'type2' => 'Ground',
@@ -420,6 +451,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.'
             ],
             [
+                'no' => 32,
                 'pokemon' => 'Nidoran♂',
                 'type1' => 'Poison',
                 'type2' => null,
@@ -433,6 +465,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.'
             ],
             [
+                'no' => 33,
                 'pokemon' => 'Nidorino',
                 'type1' => 'Poison',
                 'type2' => null,
@@ -446,6 +479,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.'
             ],
             [
+                'no' => 34,
                 'pokemon' => 'Nidoking',
                 'type1' => 'Poison',
                 'type2' => 'Ground',
@@ -460,6 +494,7 @@ class PokemonTableSeeder extends Seeder
             ],
 
             [
+                'no' => 35,
                 'pokemon' => 'Clefairy',
                 'type1' => 'Normal',
                 'type2' => 'Ground',
@@ -474,6 +509,7 @@ class PokemonTableSeeder extends Seeder
             ],
 
             [
+                'no' => 36,
                 'pokemon' => 'Clefable',
                 'type1' => 'Normal',
                 'type2' => null,
@@ -489,6 +525,7 @@ class PokemonTableSeeder extends Seeder
 
 
             [
+                'no' => 37,
                 'pokemon' => 'Vulpix',
                 'type1' => 'Fire',
                 'type2' => null,
@@ -502,6 +539,8 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'At the time of birth, it has just one tail. The tail splits from its tip as it grows older.'
             ],
             [
+
+                'no' => 38,
                 'pokemon' => 'Ninetales',
                 'type1' => 'Fire',
                 'type2' => null,
@@ -515,6 +554,8 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.'
             ],
             [
+
+                'no' => 39,
                 'pokemon' => 'Jigglypuff',
                 'type1' => 'Normal',
                 'type2' => null,
@@ -529,6 +570,7 @@ class PokemonTableSeeder extends Seeder
             ],
 
             [
+                'no' => 40,
                 'pokemon' => 'Wigglytuff',
                 'type1' => 'Normal',
                 'type2' => null,
@@ -544,6 +586,7 @@ class PokemonTableSeeder extends Seeder
 
 
             [
+                'no' => 41,
                 'pokemon' => 'Zubat',
                 'type1' => 'Poison',
                 'type2' => 'Flying',
@@ -557,6 +600,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.',
             ],
             [
+                'no' => 42,
                 'pokemon' => 'Golbat',
                 'type1' => 'Poison',
                 'type2' => 'Flying',
@@ -570,6 +614,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
             ],
             [
+                'no' => 43,
                 'pokemon' => 'Oddish',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -583,6 +628,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.',
             ],
             [
+                'no' => 44,
                 'pokemon' => 'Gloom',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -596,6 +642,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'The fluid that oozes from its mouth isn\'t drool. It is a nectar that is used to attract prey.',
             ],
             [
+                'no' => 45,
                 'pokemon' => 'Vileplume',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -609,6 +656,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.',
             ],
             [
+                'no' => 46,
                 'pokemon' => 'Paras',
                 'type1' => 'Bug',
                 'type2' => 'Grass',
@@ -622,6 +670,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.',
             ],
             [
+                'no' => 47,
                 'pokemon' => 'Parasect',
                 'type1' => 'Bug',
                 'type2' => 'Grass',
@@ -635,6 +684,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.',
             ],
             [
+                'no' => 48,
                 'pokemon' => 'Venonat',
                 'type1' => 'Bug',
                 'type2' => 'Poison',
@@ -648,6 +698,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.',
             ],
             [
+                'no' => 49,
                 'pokemon' => 'Venomoth',
                 'type1' => 'Bug',
                 'type2' => 'Poison',
@@ -661,6 +712,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.',
             ],
             [
+                'no' => 50,
                 'pokemon' => 'Diglett',
                 'type1' => 'Ground',
                 'type2' => '',
@@ -675,6 +727,7 @@ class PokemonTableSeeder extends Seeder
             ],
 
             [
+                'no' => 51,
                 'pokemon' => 'Dugtrio',
                 'type1' => 'Ground',
                 'type2' => '',
@@ -688,6 +741,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.',
             ],
             [
+                'no' => 52,
                 'pokemon' => 'Meowth',
                 'type1' => 'Normal',
                 'type2' => '',
@@ -701,6 +755,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.',
             ],
             [
+                'no' => 53,
                 'pokemon' => 'Persian',
                 'type1' => 'Normal',
                 'type2' => '',
@@ -714,6 +769,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.',
             ],
             [
+                'no' => 54,
                 'pokemon' => 'Psyduck',
                 'type1' => 'Water',
                 'type2' => '',
@@ -727,6 +783,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'While lulling its enemies with its vacant look, this wily Pokemon will use psychokinetic powers.',
             ],
             [
+                'no' => 55,
                 'pokemon' => 'Golduck',
                 'type1' => 'Water',
                 'type2' => '',
@@ -740,6 +797,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.',
             ],
             [
+                'no' => 56,
                 'pokemon' => 'Mankey',
                 'type1' => 'Fighting',
                 'type2' => '',
@@ -753,6 +811,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Extremely quick to anger. It could be docile one moment then thrashing away the next instant.',
             ],
             [
+                'no' => 57,
                 'pokemon' => 'Primeape',
                 'type1' => 'Fighting',
                 'type2' => '',
@@ -766,6 +825,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.',
             ],
             [
+                'no' => 58,
                 'pokemon' => 'Growlithe',
                 'type1' => 'Fire',
                 'type2' => '',
@@ -779,6 +839,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Very protective of its territory. It will bark and bite to repel intruders from its space.',
             ],
             [
+                'no' => 59,
                 'pokemon' => 'Arcanine',
                 'type1' => 'Fire',
                 'type2' => '',
@@ -792,6 +853,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'A Pokemon that has been admired since the past for its beauty. It runs agilely as if on wings.',
             ],
             [
+                'no' => 60,
                 'pokemon' => 'Poliwag',
                 'type1' => 'Water',
                 'type2' => '',
@@ -805,6 +867,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.',
             ],
             [
+                'no' => 61,
                 'pokemon' => 'Poliwhirl',
                 'type1' => 'Water',
                 'type2' => '',
@@ -818,6 +881,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Capable of living in or out of water. When out of water, it sweats to keep its body slimy.',
             ],
             [
+                'no' => 62,
                 'pokemon' => 'Poliwrath',
                 'type1' => 'Water',
                 'type2' => 'Fighting',
@@ -831,6 +895,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.',
             ],
             [
+                'no' => 63,
                 'pokemon' => 'Abra',
                 'type1' => 'Psychic',
                 'type2' => '',
@@ -844,6 +909,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Using its ability to read minds, it will identify impending danger and TELEPORT to safety.',
             ],
             [
+                'no' => 64,
                 'pokemon' => 'Kadabra',
                 'type1' => 'Psychic',
                 'type2' => '',
@@ -857,6 +923,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'It emits special alpha waves from its body that induce headaches just by being close by.',
             ],
             [
+                'no' => 65,
                 'pokemon' => 'Alakazam',
                 'type1' => 'Psychic',
                 'type2' => '',
@@ -870,6 +937,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5,000.',
             ],
             [
+                'no' => 66,
                 'pokemon' => 'Machop',
                 'type1' => 'Fighting',
                 'type2' => '',
@@ -883,6 +951,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Loves to build its muscles. It trains in all styles of martial arts to become even stronger.',
             ],
             [
+                'no' => 67,
                 'pokemon' => 'Machoke',
                 'type1' => 'Fighting',
                 'type2' => '',
@@ -897,6 +966,7 @@ class PokemonTableSeeder extends Seeder
             ],
 
             [
+                'no' => 68,
                 'pokemon' => 'Machamp',
                 'type1' => 'Fighting',
                 'type2' => '',
@@ -910,6 +980,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.',
             ],
             [
+                'no' => 69,
                 'pokemon' => 'Bellsprout',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -923,6 +994,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.',
             ],
             [
+                'no' => 70,
                 'pokemon' => 'Weepinbell',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -936,6 +1008,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.',
             ],
             [
+                'no' => 71,
                 'pokemon' => 'Victreebel',
                 'type1' => 'Grass',
                 'type2' => 'Poison',
@@ -949,6 +1022,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'Said to live in huge colonies deep in jungles, although no one has ever returned from there.',
             ],
             [
+                'no' => 72,
                 'pokemon' => 'Tentacool',
                 'type1' => 'Water',
                 'type2' => 'Poison',
@@ -961,6 +1035,7 @@ class PokemonTableSeeder extends Seeder
                 'png' => 'https://play.pokemonshowdown.com/sprites/bw/tentacool.png',
                 'description' => 'Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.',
             ], [
+                'no' => 73,
                 'pokemon' => 'Tentacruel',
                 'type1' => 'Water',
                 'type2' => 'Poison',
@@ -974,6 +1049,7 @@ class PokemonTableSeeder extends Seeder
                 'description' => 'The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.',
             ],
             [
+                'no' => 74,
                 "pokemon" => "Geodude",
                 "type1" => "Rock",
                 "type2" => "Ground",
@@ -987,6 +1063,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
             ],
             [
+                'no' => 75,
                 "pokemon" => "Graveler",
                 "type1" => "Rock",
                 "type2" => "Ground",
@@ -1000,6 +1077,8 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
             ],
             [
+
+                'no' => 76,
                 "pokemon" => "Golem",
                 "type1" => "Rock",
                 "type2" => "Ground",
@@ -1013,6 +1092,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
             ],
             [
+                'no' => 77,
                 "pokemon" => "Ponyta",
                 "type1" => "Fire",
                 "type2" => null,
@@ -1026,6 +1106,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time."
             ],
             [
+                'no' => 78,
                 "pokemon" => "Rapidash",
                 "type1" => "Fire",
                 "type2" => null,
@@ -1039,6 +1120,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Very competitive, this Pokemon will chase anything that moves fast in the hopes of racing it."
             ],
             [
+                'no' => 79,
                 "pokemon" => "Slowpoke",
                 "type1" => "Water",
                 "type2" => "Psychic",
@@ -1052,6 +1134,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
             ],
             [
+                'no' => 80,
                 "pokemon" => "Slowbro",
                 "type1" => "Water",
                 "type2" => "Psychic",
@@ -1065,6 +1148,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps."
             ],
             [
+                'no' => 81,
                 "pokemon" => "Magnemite",
                 "type1" => "Electric",
                 "type2" => null,
@@ -1078,6 +1162,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves."
             ],
             [
+                'no' => 82,
                 "pokemon" => "Magneton",
                 "type1" => "Electric",
                 "type2" => null,
@@ -1091,6 +1176,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up."
             ],
             [
+                'no' => 83,
                 "pokemon" => "Farfetch'd",
                 "type1" => "Normal",
                 "type2" => "Flying",
@@ -1104,6 +1190,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "The sprig of green onions it holds is its weapon. It is used much like a metal sword."
             ],
             [
+                'no' => 84,
                 "pokemon" => "Doduo",
                 "type1" => "Normal",
                 "type2" => "Flying",
@@ -1117,6 +1204,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints."
             ],
             [
+                'no' => 85,
                 "pokemon" => "Dodrio",
                 "type1" => "Normal",
                 "type2" => "Flying",
@@ -1130,6 +1218,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake."
             ],
             [
+                'no' => 86,
                 "pokemon" => "Seel",
                 "type1" => "Water",
                 "type2" => null,
@@ -1143,6 +1232,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "The protruding horn on its head is very hard. It is used for bashing through thick ice."
             ],
             [
+                'no' => 87,
                 "pokemon" => "Dewgong",
                 "type1" => "Water",
                 "type2" => "Ice",
@@ -1156,6 +1246,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters."
             ],
             [
+                'no' => 88,
                 "pokemon" => "Grimer",
                 "type1" => "Poison",
                 "type2" => null,
@@ -1169,10 +1260,10 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
             ],
             [
+                'no' => 89,
                 "pokemon" => "Muk",
                 "type1" => "Poison",
                 "type2" => null,
-
                 "hp" => 105,
                 "attack" => 105,
                 "defense" => 75,
@@ -1183,10 +1274,10 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
             ],
             [
+                'no' => 90,
                 "pokemon" => "Shellder",
                 "type1" => "Water",
                 "type2" => null,
-
                 "hp" => 30,
                 "attack" => 65,
                 "defense" => 100,
@@ -1197,6 +1288,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
             ],
             [
+                'no' => 91,
                 "pokemon" => "Cloyster",
                 "type1" => "Water",
                 "type2" => "Ice",
@@ -1210,6 +1302,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "When attacked, it launches its horns in quick volleys. Its innards have never been seen."
             ],
             [
+                'no' => 92,
                 "pokemon" => "Gastly",
                 "type1" => "Ghost",
                 "type2" => "Poison",
@@ -1223,6 +1316,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Almost invisible, this gaseous Pokemon cloaks the target and puts it to sleep without notice."
             ],
             [
+                'no' => 93,
                 "pokemon" => "Haunter",
                 "type1" => "Ghost",
                 "type2" => "Poison",
@@ -1236,6 +1330,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Because of its ability to slip through block walls, it is said to be from another dimension."
             ],
             [
+                'no' => 94,
                 "pokemon" => "Gengar",
                 "type1" => "Ghost",
                 "type2" => "Poison",
@@ -1249,6 +1344,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Under a full moon, this Pokemon likes to mimic the shadows of people and laugh at their fright."
             ],
             [
+                'no' => 95,
                 "pokemon" => "Onix",
                 "type1" => "Rock",
                 "type2" => "Ground",
@@ -1262,6 +1358,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black."
             ],
             [
+                'no' => 96,
                 "pokemon" => "Drowzee",
                 "type1" => "Psychic",
                 "type2" => null,
@@ -1275,6 +1372,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams."
             ],
             [
+                'no' => 97,
                 "pokemon" => "Hypno",
                 "type1" => "Psychic",
                 "type2" => null,
@@ -1288,6 +1386,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION."
             ],
             [
+                'no' => 98,
                 "pokemon" => "Krabby",
                 "type1" => "Water",
                 "type2" => null,
@@ -1301,6 +1400,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its pincers are not only powerful weapons, they are used for balance when walking sideways."
             ],
             [
+                'no' => 99,
                 "pokemon" => "Kingler",
                 "type1" => "Water",
                 "type2" => null,
@@ -1314,6 +1414,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "The large pincer has 10,000-horsepower strength. However, its huge size makes it unwieldy to use."
             ],
             [
+                'no' => 100,
                 "pokemon" => "Voltorb",
                 "type1" => "Electric",
                 "type2" => null,
@@ -1327,6 +1428,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Usually found in power plants. Easily mistaken for a Poké Ball, they have zapped many people."
             ],
             [
+                'no' => 101,
                 "pokemon" => "Electrode",
                 "type1" => "Electric",
                 "type2" => null,
@@ -1340,6 +1442,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "It stores electric energy under very high pressure. It often explodes with little or no provocation."
             ],
             [
+                'no' => 102,
                 "pokemon" => "Exeggcute",
                 "type1" => "Grass",
                 "type2" => "Psychic",
@@ -1353,6 +1456,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
             ],
             [
+                'no' => 103,
                 "pokemon" => "Exeggutor",
                 "type1" => "Grass",
                 "type2" => "Psychic",
@@ -1370,6 +1474,7 @@ class PokemonTableSeeder extends Seeder
 
 
             [
+                'no' => 104,
                 "pokemon" => "Cubone",
                 "type1" => "Ground",
                 "type2" => null,
@@ -1383,6 +1488,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Because it never removes its skull helmet, no one has ever seen this Pokemon's real face."
             ],
             [
+                'no' => 105,
                 "pokemon" => "Marowak",
                 "type1" => "Ground",
                 "type2" => null,
@@ -1396,6 +1502,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets."
             ],
             [
+                'no' => 106,
                 "pokemon" => "Hitmonlee",
                 "type1" => "Fighting",
                 "type2" => null,
@@ -1409,6 +1516,8 @@ class PokemonTableSeeder extends Seeder
                 "description" => "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
             ],
             [
+
+                'no' => 107,
                 "pokemon" => "Hitmonchan",
                 "type1" => "Fighting",
                 "type2" => null,
@@ -1422,6 +1531,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see."
             ],
             [
+                'no' => 108,
                 "pokemon" => "Lickitung",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1435,6 +1545,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies."
             ],
             [
+                'no' => 109,
                 "pokemon" => "Koffing",
                 "type1" => "Poison",
                 "type2" => null,
@@ -1448,6 +1559,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
             ],
             [
+                'no' => 110,
                 "pokemon" => "Weezing",
                 "type1" => "Poison",
                 "type2" => null,
@@ -1461,6 +1573,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years."
             ],
             [
+                'no' => 111,
                 "pokemon" => "Rhyhorn",
                 "type1" => "Ground",
                 "type2" => "Rock",
@@ -1474,6 +1587,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying."
             ],
             [
+                'no' => 112,
                 "pokemon" => "Rhydon",
                 "type1" => "Ground",
                 "type2" => "Rock",
@@ -1487,6 +1601,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees."
             ],
             [
+                'no' => 113,
                 "pokemon" => "Chansey",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1500,6 +1615,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A rare and elusive Pokemon that is said to bring happiness to those who manage to get it."
             ],
             [
+                'no' => 114,
                 "pokemon" => "Tangela",
                 "type1" => "Grass",
                 "type2" => null,
@@ -1513,6 +1629,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks."
             ],
             [
+                'no' => 115,
                 "pokemon" => "Kangaskhan",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1526,6 +1643,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "The infant rarely ventures out of its mother's protective pouch until it is 3 years old."
             ],
             [
+                'no' => 116,
                 "pokemon" => "Horsea",
                 "type1" => "Water",
                 "type2" => null,
@@ -1539,6 +1657,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
             ],
             [
+                'no' => 117,
                 "pokemon" => "Seadra",
                 "type1" => "Water",
                 "type2" => null,
@@ -1552,6 +1671,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail."
             ],
             [
+                'no' => 118,
                 "pokemon" => "Goldeen",
                 "type1" => "Water",
                 "type2" => null,
@@ -1565,6 +1685,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen."
             ],
             [
+                'no' => 119,
                 "pokemon" => "Seaking",
                 "type1" => "Water",
                 "type2" => null,
@@ -1578,6 +1699,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
             ],
             [
+                'no' => 120,
                 "pokemon" => "Staryu",
                 "type1" => "Water",
                 "type2" => null,
@@ -1591,6 +1713,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "An enigmatic Pokemon that can effortlessly regenerate any appendage it loses in battle."
             ],
             [
+                'no' => 121,
                 "pokemon" => "Starmie",
                 "type1" => "Water",
                 "type2" => "Psychic",
@@ -1604,6 +1727,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem."
             ],
             [
+                'no' => 122,
                 "pokemon" => "Mr. Mime",
                 "type1" => "Psychic",
                 "type2" => "Fairy",
@@ -1617,6 +1741,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "If interrupted while it is miming, it will slap around the offender with its broad hands."
             ],
             [
+                'no' => 123,
                 "pokemon" => "Scyther",
                 "type1" => "Bug",
                 "type2" => "Flying",
@@ -1630,6 +1755,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "With ninja-like agility and speed, it can create the illusion that there is more than one."
             ],
             [
+                'no' => 124,
                 "pokemon" => "Jynx",
                 "type1" => "Ice",
                 "type2" => "Psychic",
@@ -1643,6 +1769,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it."
             ],
             [
+                'no' => 125,
                 "pokemon" => "Electabuzz",
                 "type1" => "Electric",
                 "type2" => null,
@@ -1656,6 +1783,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Normally found near power plants, they can wander away and cause major blackouts in cities."
             ],
             [
+                'no' => 126,
                 "pokemon" => "Magmar",
                 "type1" => "Fire",
                 "type2" => null,
@@ -1669,6 +1797,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its body always burns with an orange glow that enables it to hide perfectly among flames."
             ],
             [
+                'no' => 127,
                 "pokemon" => "Pinsir",
                 "type1" => "Bug",
                 "type2" => null,
@@ -1682,6 +1811,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far."
             ],
             [
+                'no' => 128,
                 "pokemon" => "Tauros",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1695,6 +1825,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "When it targets an enemy, it charges furiously while whipping its body with its long tails."
             ],
             [
+                'no' => 129,
                 "pokemon" => "Magikarp",
                 "type1" => "Water",
                 "type2" => null,
@@ -1708,6 +1839,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
             ],
             [
+                'no' => 130,
                 "pokemon" => "Gyarados",
                 "type1" => "Water",
                 "type2" => "Flying",
@@ -1721,6 +1853,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
             ],
             [
+                'no' => 131,
                 "pokemon" => "Lapras",
                 "type1" => "Water",
                 "type2" => "Ice",
@@ -1734,6 +1867,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back."
             ],
             [
+                'no' => 132,
                 "pokemon" => "Ditto",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1747,6 +1881,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "It can freely recombine its own cellular structure to transform into other life-forms."
             ],
             [
+                'no' => 133,
                 "pokemon" => "Eevee",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1760,6 +1895,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Its genetic code is unstable, so it could evolve in a variety of ways."
             ],
             [
+                'no' => 134,
                 "pokemon" => "Vaporeon",
                 "type1" => "Water",
                 "type2" => null,
@@ -1773,6 +1909,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's."
             ],
             [
+                'no' => 135,
                 "pokemon" => "Jolteon",
                 "type1" => "Electric",
                 "type2" => null,
@@ -1785,7 +1922,8 @@ class PokemonTableSeeder extends Seeder
                 "png" => "https://play.pokemonshowdown.com/sprites/bw/jolteon.png",
                 "description" => "It accumulates negative ions in the atmosphere to blast out 10,000-volt lightning bolts."
             ],
-            [
+            [                
+                'no' => 136,
                 "pokemon" => "Flareon",
                 "type1" => "Fire",
                 "type2" => null,
@@ -1799,6 +1937,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
             ],
             [
+                'no' => 137,
                 "pokemon" => "Porygon",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1812,6 +1951,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A Pokemon that consists entirely of programming code. Capable of moving freely in cyberspace."
             ],
             [
+                'no' => 138,
                 "pokemon" => "Omanyte",
                 "type1" => "Rock",
                 "type2" => "Water",
@@ -1825,6 +1965,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
             ],
             [
+                'no' => 139,
                 "pokemon" => "Omastar",
                 "type1" => "Rock",
                 "type2" => "Water",
@@ -1838,6 +1979,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A prehistoric Pokemon that died out when its heavy shell made it impossible to catch prey."
             ],
             [
+                'no' => 140,
                 "pokemon" => "Kabuto",
                 "type1" => "Rock",
                 "type2" => "Water",
@@ -1851,6 +1993,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A Pokemon that was resurrected from a fossil. It lived in the sea and hunted with claws."
             ],
             [
+                'no' => 141,
                 "pokemon" => "Kabutops",
                 "type1" => "Rock",
                 "type2" => "Water",
@@ -1864,6 +2007,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "It is thought that this Pokemon became extinct because its spiral-shaped shell grew too large."
             ],
             [
+                'no' => 142,
                 "pokemon" => "Aerodactyl",
                 "type1" => "Rock",
                 "type2" => "Flying",
@@ -1877,6 +2021,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A ferocious, prehistoric Pokemon that goes for the enemy's throat with its serrated, sawlike fangs."
             ],
             [
+                'no' => 143,
                 "pokemon" => "Snorlax",
                 "type1" => "Normal",
                 "type2" => null,
@@ -1890,6 +2035,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
             ],
             [
+                'no' => 144,
                 "pokemon" => "Articuno",
                 "type1" => "Ice",
                 "type2" => "Flying",
@@ -1903,6 +2049,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A legendary bird Pokemon. It can create blizzards by freezing moisture in the air."
             ],
             [
+                'no' => 145,
                 "pokemon" => "Zapdos",
                 "type1" => "Electric",
                 "type2" => "Flying",
@@ -1916,6 +2063,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A legendary bird Pokemon that is said to appear from clouds while dropping enormous lightning bolts."
             ],
             [
+                'no' => 146,
                 "pokemon" => "Moltres",
                 "type1" => "Fire",
                 "type2" => "Flying",
@@ -1929,6 +2077,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
             ],
             [
+                'no' => 147,
                 "pokemon" => "Dratini",
                 "type1" => "Dragon",
                 "type2" => null,
@@ -1942,6 +2091,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "Long considered a mythical Pokemon until recently when a small colony was found living underwater."
             ],
             [
+                'no' => 148,
                 "pokemon" => "Dragonair",
                 "type1" => "Dragon",
                 "type2" => null,
@@ -1955,6 +2105,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "A mystical Pokemon that exudes a gentle aura. Has the ability to change climate conditions."
             ],
             [
+                'no' => 149,
                 "pokemon" => "Dragonite",
                 "type1" => "Dragon",
                 "type2" => "Flying",
@@ -1968,6 +2119,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "An extremely rarely seen marine Pokemon. Its intelligence is said to match that of humans."
             ],
             [
+                'no' => 150,
                 "pokemon" => "Mewtwo",
                 "type1" => "Psychic",
                 "type2" => null,
@@ -1981,6 +2133,7 @@ class PokemonTableSeeder extends Seeder
                 "description" => "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments."
             ],
             [
+                'no' => 151,
                 "pokemon" => "Mew",
                 "type1" => "Psychic",
                 "type2" => null,
