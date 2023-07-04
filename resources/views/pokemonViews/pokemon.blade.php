@@ -8,7 +8,7 @@
             Name: {{ $pokemon->pokemon }}
         </h1>
         <h2>
-            No: {{ $pokemon->id }}
+            No: {{ $pokemon->no }}
 
         </h2>
         <div class="poke-image text-center">

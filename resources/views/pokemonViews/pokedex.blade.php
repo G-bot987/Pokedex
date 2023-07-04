@@ -45,7 +45,7 @@
                                     <img src="{{ $poke->gif }}" alt="{{ $poke->pokemon }}" class="rounded-top">
                                 </div>
                                 <h4 class="poke-name">Name: {{ $poke->pokemon }}</h4>
-                                <h6 class="poke-id">No: {{ $poke->id }}</h6>
+                                <h6 class="poke-id">No: {{ $poke->no }}</h6>
 
                                 <div class="row">
                                     <div class="col">
