@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('pokemon', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('no');
             $table->string('pokemon');
             $table->string('type1');
             $table->string('type2')->nullable();
